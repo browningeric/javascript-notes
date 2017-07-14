@@ -32,3 +32,24 @@ Global object: god of objects; in a browser, the window is global object (aka he
 
 - console.log! - like an alert but just sends stuff to console (viewable via inspector)
 - .select and .focus properties for inputs (neat)
+
+## Javascript templating & loops
+- take some html content, use "type='text/html' in script tag"
+- templating code from John Resig, simple but works, much lighter than bringing in Handlebars or something
+- for loop syntax, for ( var i = 0; i < 15; i++ ) {}
+- use 'append()' (jquery) to add templated item to instances inside a list or whatever; works, but is slow because constantly painting DOM with new things
+- += operator, start with initial, add something to end
+
+## Click events & classes
+- .on (jquery function, pass argument like 'click')
+- addClass & removeClass
+- stringing together variables in one 'var' statement is possible, use commas and keep semicolon at end
+- $(this) - whatever element the click event (etc) is attached to
+
+## Mock data
+- to create variable, always start with 'var', can assign anything, ie string, number, array, object '{}' etc
+- objects: like an array of key : value pairs
+
+## Random numbers
+- to make color more dynamic/random
+
